@@ -12,7 +12,7 @@
  * the License.
  */
 
-const { PNG } = require('pngjs');
+const { PNG } = require('pngjs-nozlib');
 const fs = require('fs');
 const getStdin = require('get-stdin');
 

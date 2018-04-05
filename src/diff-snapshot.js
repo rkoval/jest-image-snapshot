@@ -18,7 +18,7 @@ const childProcess = require('child_process');
 const rimraf = require('rimraf');
 const pixelmatch = require('pixelmatch');
 const mkdirp = require('mkdirp');
-const { PNG } = require('pngjs');
+const { PNG } = require('pngjs-nozlib');
 
 /**
  * Helper function to create reusable image resizer
